@@ -135,7 +135,7 @@ export function CTASection() {
                 <div>
                   <p className="text-sm text-muted-foreground mb-0.5">Enterprise Support</p>
                   <p className="text-base font-semibold text-foreground">
-                    24/7 Global Support &bull; 15-min Response SLA
+                    24/7 Support &bull; 15-min Response SLA
                   </p>
                 </div>
               </div>
