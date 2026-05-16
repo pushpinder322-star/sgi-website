@@ -35,10 +35,10 @@ const milestones = [
 ]
 
 const offices = [
-  { city: "Ontario", type: "Headquarters" },
-  { city: "Alberta", type: "Regional Office" },
-  { city: "British Columbia", type: "Regional Office" },
-  { city: "Canada-Wide", type: "Nationwide Support" },
+  { city: "Ontario", country: "Core Operations" },
+  { city: "Alberta", country: "Service Coverage" },
+  { city: "British Columbia", country: "Service Coverage" },
+  { city: "Canada-Wide", country: "Remote & On-Site Support" },
 ]
 
 export default function AboutPage() {

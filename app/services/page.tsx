@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 }
 
 const serviceImages: Record<string, string> = {
-  "managed-soc": "/images/cctv-security.jpg",
+  "managed-soc": "/images/SOC.jpg",
   "managed-noc-service": "/images/command-center.jpg",
   "cloud-services": "/images/cloud-continuity.jpg",
   "network-services": "/images/network.jpg",
