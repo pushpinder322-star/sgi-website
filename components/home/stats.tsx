@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion"
 import { Globe, Shield, Clock, Building2 } from "lucide-react"
 
 const stats = [
-  { id: "clients", icon: Building2, value: 200, suffix: "+", label: "Enterprise Clients", isText: false },
+  { id: "clients", icon: Building2, value: 340+, suffix: "+", label: "Enterprise Clients", isText: false },
   { id: "uptime", icon: Shield, value: 99.99, suffix: "%", label: "Uptime SLA", isText: false },
   { id: "coverage", icon: Globe, value: 0, suffix: "", label: "Coverage", isText: true, textValue: "Across Canada" },
   { id: "operations", icon: Clock, value: 24, suffix: "/7", label: "Operations", isText: false },

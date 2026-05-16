@@ -922,7 +922,7 @@ export const partnerNames = [
 // STATS
 // ============================================
 export const stats = [
-  { value: "200+", label: "Enterprise Clients", icon: Building2 },
+  { value: "340+", label: "Enterprise Clients", icon: Building2 },
   { value: "99.99%", label: "Uptime SLA", icon: Zap },
   { value: "24/7", label: "Expert Support", icon: Clock },
   { value: "50+", label: "Industry Awards", icon: Award },

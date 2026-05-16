@@ -30,7 +30,7 @@ const milestones = [
   { year: "2012", event: "Expanded into cloud infrastructure and multi-cloud services" },
   { year: "2015", event: "Launched 24/7 Security Operations Center (SOC)" },
   { year: "2018", event: "Achieved FedRAMP High authorization for government clients" },
-  { year: "2021", event: "Reached 200+ enterprise clients milestone across 6 industries" },
+  { year: "2021", event: "Reached 340+ enterprise clients milestone across 6 industries" },
   { year: "2024", event: "Opened new global operations centers in London and Singapore" },
 ]
 
@@ -262,7 +262,7 @@ export default function AboutPage() {
             Ready to Partner With Us?
           </h2>
           <p className="text-muted-foreground mb-8 text-lg">
-            Join 200+ organizations that trust SmartGuard Innovations.
+            Join 340+ organizations that trust SmartGuard Innovations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8">

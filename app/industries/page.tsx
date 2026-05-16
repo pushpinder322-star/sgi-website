@@ -35,7 +35,7 @@ const industryStats: Record<string, Array<{ value: string; label: string }>> = {
   ],
   manufacturing: [
     { value: "40%", label: "Efficiency Gain" },
-    { value: "200+", label: "Facilities" },
+    { value: "20+", label: "Facilities" },
     { value: "IoT", label: "Integration" },
   ],
   retail: [
@@ -45,11 +45,11 @@ const industryStats: Record<string, Array<{ value: string; label: string }>> = {
   ],
   government: [
     { value: "FedRAMP", label: "Authorized" },
-    { value: "100+", label: "Agencies" },
+    { value: "10+", label: "Agencies" },
     { value: "IL5", label: "Certified" },
   ],
   education: [
-    { value: "300+", label: "Institutions" },
+    { value: "10+", label: "Institutions" },
     { value: "5M+", label: "Students" },
     { value: "FERPA", label: "Compliant" },
   ],
