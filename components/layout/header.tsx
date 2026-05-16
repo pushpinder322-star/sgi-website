@@ -18,7 +18,7 @@ const pillars = [
 ]
 
 const industries = [
-  { key: "financial", name: "Financial Services", icon: Building2, image: "/images/financial.jpg" },
+  { key: "financial-services", name: "Financial Services", icon: Building2, image: "/images/financial.jpg" },
   { key: "healthcare", name: "Healthcare", icon: Heart, image: "/images/healthcare-care.jpg" },
   { key: "manufacturing", name: "Manufacturing", icon: Factory, image: "/images/warehousing.jpg" },
   { key: "retail", name: "Retail & Commerce", icon: ShoppingBag, image: "/images/retail-restaurants.jpg" },
