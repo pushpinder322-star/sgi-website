@@ -35,10 +35,10 @@ const milestones = [
 ]
 
 const offices = [
-  { city: "San Francisco", type: "Headquarters" },
-  { city: "New York", type: "Regional Office" },
-  { city: "London", type: "European HQ" },
-  { city: "Singapore", type: "APAC HQ" },
+  { city: "Ontario", type: "Headquarters" },
+  { city: "Alberta", type: "Regional Office" },
+  { city: "British Columbia", type: "Regional Office" },
+  { city: "Canada-Wide", type: "Nationwide Support" },
 ]
 
 export default function AboutPage() {

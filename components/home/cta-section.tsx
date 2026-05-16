@@ -15,10 +15,10 @@ const globalStats = [
 ]
 
 const offices = [
-  { city: "New York", country: "USA" },
-  { city: "London", country: "UK" },
-  { city: "Singapore", country: "Asia-Pacific" },
-  { city: "Dubai", country: "Middle East" },
+  { city: "Ontario", country: "Core Operations" },
+  { city: "Alberta", country: "Service Coverage" },
+  { city: "British Columbia", country: "Service Coverage" },
+  { city: "Canada-Wide", country: "Remote & On-Site Support" },
 ]
 
 export function CTASection() {
@@ -96,7 +96,7 @@ export function CTASection() {
           >
             {/* Stats Card */}
             <div className="bg-card/80 backdrop-blur-xl rounded-xl p-6 border border-border">
-              <h3 className="text-lg font-semibold text-foreground mb-4">Global Presence</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-4">Canada-Wide Coverage</h3>
               <div className="grid grid-cols-3 gap-4">
                 {globalStats.map((stat) => {
                   const Icon = stat.icon
