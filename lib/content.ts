@@ -88,6 +88,7 @@ export interface ManagedService {
   description: string
   icon: LucideIcon
   features: string[]
+  image: string
 }
 
 export interface MenuItem {
@@ -785,6 +786,7 @@ export const managedServices: ManagedService[] = [
     description: "24/7 security operations center monitoring and threat response.",
     icon: Shield,
     features: ["Threat Monitoring", "Incident Response", "Threat Intelligence", "Compliance Reporting"],
+    image: "/images/SOC.jpg",
   },
   {
     key: "managed-network",
@@ -793,6 +795,7 @@ export const managedServices: ManagedService[] = [
     description: "End-to-end network management and optimization.",
     icon: Network,
     features: ["Network Monitoring", "Performance Management", "Configuration Management", "Network Security"],
+    image: "/images/network-operations.jpg",
   },
   {
     key: "managed-noc-service",
@@ -801,6 +804,7 @@ export const managedServices: ManagedService[] = [
     description: "24/7 network operations center for infrastructure management.",
     icon: Monitor,
     features: ["Infrastructure Monitoring", "Incident Management", "Change Management", "Performance Optimization"],
+    image: "/images/NOC.jpg",
   },
   {
     key: "managed-cloud-service",
@@ -809,6 +813,7 @@ export const managedServices: ManagedService[] = [
     description: "Complete cloud management including optimization and support.",
     icon: Cloud,
     features: ["Cloud Management", "Cost Optimization", "Security & Compliance", "24/7 Support"],
+    image: "/images/cloud-continuity.jpg",
   },
   {
     key: "managed-automation",
@@ -817,6 +822,7 @@ export const managedServices: ManagedService[] = [
     description: "Automation-as-a-service for continuous improvement.",
     icon: Bot,
     features: ["Automation Development", "Pipeline Management", "Continuous Improvement", "Training & Enablement"],
+    image: "/images/automation.jpg",
   },
 ]
 

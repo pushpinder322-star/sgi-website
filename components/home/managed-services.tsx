@@ -9,16 +9,11 @@ import { Button } from "@/components/ui/button"
 import { managedServices } from "@/lib/content"
 
 const serviceImages: Record<string, string> = {
-  "managed-soc": "/images/cctv-security.jpg",
-  "managed-noc": "/images/command-center.jpg",
-  "managed-cloud": "/images/cloud-continuity.jpg",
+  "managed-soc": "/images/SOC.jpg",
   "managed-network": "/images/network.jpg",
-
-  // fallback for SGI service keys if used from lib/content.ts
-  "microsoft-365-support": "/images/managed-operations.jpg",
-  "network-support": "/images/network.jpg",
-  "monitoring-readiness": "/images/command-center.jpg",
-  "site-support": "/images/assessment.jpg",
+  "managed-noc-service": "/images/NOC.jpg",
+  "managed-cloud-service": "/images/cloud-continuity.jpg",
+  "managed-automation": "/images/automation.jpg",
 }
 
 const highlights = [
