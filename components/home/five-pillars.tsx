@@ -23,11 +23,11 @@ const pillarsData = [
       { value: "<15min", label: "Response Time" },
       { value: "24/7", label: "SOC Monitoring" },
     ],
-    solutions: [
-      { name: "Enterprise Cybersecurity", desc: "SIEM, threat hunting, vulnerability management" },
-      { name: "Identity & Access", desc: "Zero-trust architecture, SSO, MFA" },
-      { name: "Managed Security", desc: "24/7 SOC, incident response" },
-    ],
+   solutions: [
+  { name: "Enterprise Cybersecurity", key: "cybersecurity", desc: "SIEM, threat hunting, vulnerability management" },
+  { name: "Identity & Access", key: "identity-access", desc: "Zero-trust architecture, SSO, MFA" },
+  { name: "Managed Security", key: "managed-security", desc: "24/7 SOC, incident response" },
+],
   },
   {
     key: "connect",
@@ -44,10 +44,10 @@ const pillarsData = [
       { value: "40%", label: "Cost Savings" },
     ],
     solutions: [
-      { name: "Network Services", desc: "LAN/WAN, Wi-Fi 6E, 5G networks" },
-      { name: "SD-WAN Solutions", desc: "Application-aware routing, SASE" },
-      { name: "Unified Communications", desc: "UCaaS, video, contact center" },
-    ],
+  { name: "Network Services", key: "network-services", desc: "LAN/WAN, Wi-Fi 6E, 5G networks" },
+  { name: "SD-WAN Solutions", key: "sd-wan", desc: "Application-aware routing, SASE" },
+  { name: "Unified Communications", key: "unified-communications", desc: "UCaaS, video, contact center" },
+],
   },
   {
     key: "operate",
@@ -64,10 +64,10 @@ const pillarsData = [
       { value: "99.999%", label: "Availability" },
     ],
     solutions: [
-      { name: "Managed NOC", desc: "Infrastructure monitoring, incidents" },
-      { name: "Data Center", desc: "HCI, storage, disaster recovery" },
-      { name: "Endpoint Management", desc: "EDR, patch management, MDM" },
-    ],
+  { name: "Managed NOC", key: "managed-noc", desc: "Infrastructure monitoring, incidents" },
+  { name: "Data Center", key: "data-center", desc: "HCI, storage, disaster recovery" },
+  { name: "Endpoint Management", key: "managed-endpoint", desc: "EDR, patch management, MDM" },
+],
   },
   {
     key: "scale",
@@ -84,10 +84,10 @@ const pillarsData = [
       { value: "100+", label: "Architects" },
     ],
     solutions: [
-      { name: "Cloud Infrastructure", desc: "AWS, Azure, GCP migration" },
-      { name: "Data & Analytics", desc: "Data warehouse, BI, ML/AI" },
-      { name: "Hybrid Cloud", desc: "Multi-cloud, workload portability" },
-    ],
+  { name: "Cloud Infrastructure", key: "cloud-infrastructure", desc: "AWS, Azure, GCP migration" },
+  { name: "Data & Analytics", key: "data-analytics", desc: "Data warehouse, BI, ML/AI" },
+  { name: "Hybrid Cloud", key: "hybrid-cloud", desc: "Multi-cloud, workload portability" },
+],
   },
   {
     key: "automate",
@@ -103,11 +103,11 @@ const pillarsData = [
       { value: "10x", label: "Faster Deploy" },
       { value: "90%", label: "Fewer Incidents" },
     ],
-    solutions: [
-      { name: "IT Automation", desc: "IaC, configuration, runbooks" },
-      { name: "DevOps Platform", desc: "CI/CD, GitOps, SRE" },
-      { name: "AIOps", desc: "Anomaly detection, predictive" },
-    ],
+   solutions: [
+  { name: "IT Automation", key: "automation", desc: "IaC, configuration, runbooks" },
+  { name: "DevOps Platform", key: "devops", desc: "CI/CD, GitOps, SRE" },
+  { name: "AIOps", key: "ai-operations", desc: "Anomaly detection, predictive" },
+],
   },
 ]
 
@@ -218,7 +218,7 @@ export function FivePillars() {
               {pillar.solutions.map((sol) => (
                 <Link
                   key={sol.name}
-                  href={`/solutions/${sol.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '')}`}
+                  href={`/solutions/${sol.key}`}
                   className="group flex items-start gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-all"
                 >
                   <CheckCircle className="w-5 h-5 mt-0.5 text-primary" />
