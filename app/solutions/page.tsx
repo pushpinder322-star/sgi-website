@@ -99,7 +99,7 @@ export default function SolutionsPage() {
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="grid grid-cols-3 gap-4">
                     {[
-                      { value: "200+", label: "Enterprise Clients" },
+                      { value: "340+", label: "Enterprise Clients" },
                       { value: "10+", label: "Years Experience" },
                       { value: "99.9%", label: "Uptime SLA" },
                     ].map((stat) => (
@@ -222,7 +222,7 @@ export default function SolutionsPage() {
               <ul className="space-y-4">
                 {[
                   "Proven track record with 200+ enterprise deployments",
-                  "24/7 global support with 15-minute SLA response",
+                  "24/7 support with 15-minute SLA response",
                   "Vendor-agnostic approach for best-fit solutions",
                   "Compliance expertise (SOC 2, HIPAA, PCI-DSS, FedRAMP)",
                   "Dedicated success managers and technical architects",
