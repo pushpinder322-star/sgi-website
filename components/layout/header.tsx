@@ -27,10 +27,10 @@ const industries = [
 ]
 
 const services = [
-  { key: "managed-soc", name: "Managed SOC", icon: Shield, desc: "24/7 Security Operations", image: "/images/SOC-2.jpg" },
-  { key: "managed-noc", name: "Managed NOC", icon: Server, desc: "Network Monitoring", image: "/images/command-center.jpg" },
-  { key: "cloud-services", name: "Cloud Services", icon: Cloud, desc: "Infrastructure & Migration", image: "/images/cloud-continuity.jpg" },
-  { key: "it-support", name: "IT Support", icon: Headset, desc: "Enterprise Help Desk", image: "/images/managed-operations.jpg" },
+  { key: "managed-soc", name: "Managed SOC", icon: Shield, desc: "24/7 Security Operations", image: "/images/SOC.jpg" },
+  { key: "managed-network", name: "Managed Network", icon: Server, desc: "Network Monitoring", image: "/images/network-operations.jpg" },
+  { key: "managed-noc-service", name: "Managed NOC", icon: Server, desc: "Infrastructure Monitoring", image: "/images/NOC.jpg" },
+  { key: "managed-cloud-service", name: "Managed Cloud", icon: Cloud, desc: "Cloud Management", image: "/images/cloud-continuity.jpg" },
 ]
 
 const aboutItems = [
