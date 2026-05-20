@@ -10,7 +10,7 @@ import { companyInfo } from "@/lib/content"
 
 const globalStats = [
   { icon: Globe, value: "Across", label: "Canada" },
-  { icon: Building2, value: "Multi-Site", label: "Support" },
+  { icon: Building2, value: "Multi-Site", label: "Business Support" },
   { icon: Award, value: "10+", label: "Years" },
 ]
 
