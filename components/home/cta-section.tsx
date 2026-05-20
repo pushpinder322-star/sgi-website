@@ -10,7 +10,7 @@ import { companyInfo } from "@/lib/content"
 
 const globalStats = [
   { icon: Globe, value: "Across", label: "Canada" },
-  { icon: Building2, value: "340+", label: "Clients" },
+  { icon: Building2, value: "Multi-Site", label: "Support" },
   { icon: Award, value: "10+", label: "Years" },
 ]
 
@@ -56,9 +56,9 @@ export function CTASection() {
               in Enterprise Infrastructure
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Join hundreds of Fortune 200 companies who trust SGI to protect, 
-              connect, and scale their mission-critical infrastructure.
-            </p>
+  Helping growing businesses protect, connect, and manage their critical infrastructure 
+  with secure IT, network, and physical security solutions.
+</p>
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -111,20 +111,35 @@ export function CTASection() {
               </div>
             </div>
 
-            {/* Certifications */}
-            <div className="bg-card/80 backdrop-blur-xl rounded-xl p-6 border border-border">
-              <h3 className="text-lg font-semibold text-foreground mb-4">Certifications</h3>
-              <div className="flex flex-wrap gap-2">
-                {["ISO 27001", "SOC 2 Type II", "FedRAMP", "HIPAA", "PCI-DSS", "GDPR"].map((cert) => (
-                  <span
-                    key={cert}
-                    className="px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/20 text-sm font-medium text-primary"
-                  >
-                    {cert}
-                  </span>
-                ))}
-              </div>
-            </div>
+            {/* Frameworks */}
+<div className="bg-card/80 backdrop-blur-xl rounded-xl p-6 border border-border">
+  <h3 className="text-lg font-semibold text-foreground mb-4">
+    Security & Compliance Awareness
+  </h3>
+
+  <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+    Our infrastructure approach is designed around recognized security, privacy, 
+    and operational best practices.
+  </p>
+
+  <div className="flex flex-wrap gap-2">
+    {[
+      "ISO 27001 Awareness",
+      "SOC 2 Controls",
+      "HIPAA Readiness",
+      "PCI-DSS Principles",
+      "Privacy Practices",
+      "Security Baseline",
+    ].map((framework) => (
+      <span
+        key={framework}
+        className="px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/20 text-sm font-medium text-primary"
+      >
+        {framework}
+      </span>
+    ))}
+  </div>
+</div>
 
             {/* Support */}
             <div className="bg-primary/10 backdrop-blur-xl rounded-xl p-5 border border-primary/30">
@@ -135,7 +150,7 @@ export function CTASection() {
                 <div>
                   <p className="text-sm text-muted-foreground mb-0.5">Enterprise Support</p>
                   <p className="text-base font-semibold text-foreground">
-                    24/7 Support &bull; 15-min Response SLA
+                    Remote Support &bull; Priority Response
                   </p>
                 </div>
               </div>
